@@ -10,8 +10,6 @@ workdir/
 out/
 
 # Environment files
-.env
-.env.local
 .env.*.local
 
 # User configuration (copied from .example)
@@ -20,7 +18,6 @@ docker-compose.override.yml
 
 # IDE
 .idea/
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json.example
 *.swp
@@ -77,3 +74,4 @@ core/tests/*dumps/*
 
 screenshots/*
 
+config.bat
